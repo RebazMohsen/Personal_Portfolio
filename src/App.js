@@ -2,11 +2,14 @@ import NavBar from "./NavBar/NavBar";
 import React, { useState } from "react";
 
 import Loading from "./Components/LoadingSpinner/Loading";
-import Particle from "./Components/Particles/Particle";
+import Particle from "./Components/Particles/Particle.jsx";
+import About from "./Components/About/About";
+import Skills from "./Components/Skills/Skills";
+import Contact from "./Components/Contact/Contact";
 function App() {
   const [loading, setLoading] = useState(false);
 
-  // make a function that runs for 5 seconds?
+  //A function that runs for 5 seconds
   setInterval(function () {
     // method to be executed;
     setLoading(false);
@@ -20,11 +23,14 @@ function App() {
     );
   } else {
     return (
-      <div className="App">
+      <div className="App ">
         <NavBar />
 
         <Particle />
-        <h1 className="text-4xl">Hello</h1>
+
+        <About />
+        <Skills />
+        <Contact />
       </div>
     );
   }

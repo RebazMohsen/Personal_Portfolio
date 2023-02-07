@@ -16,7 +16,8 @@ function Particle() {
         className="h-[500px]  "
         options={particlesOptions}
       />
-      <h1 className="text-4xl">My Name</h1>
+
+      <h1 className="text-4xl transition-all duration-1000 ">My Name</h1>
     </div>
   );
 }

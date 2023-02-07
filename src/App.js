@@ -6,6 +6,7 @@ import Particle from "./Components/Particles/Particle.jsx";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
+import HR from "./Components/BreakLine/HR";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -29,7 +30,9 @@ function App() {
         <Particle />
 
         <About />
+        <HR />
         <Skills />
+        <HR />
         <Contact />
       </div>
     );

@@ -2,6 +2,7 @@
   position: absolute;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+  border-width: 50%;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;

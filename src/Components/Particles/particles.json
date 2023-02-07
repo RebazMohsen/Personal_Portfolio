@@ -51,6 +51,9 @@
     }
   },
   "particles": {
+    "collisions": {
+      "enable": false
+    },
     "color": {
       "value": "#DE6E4B"
     },
@@ -63,7 +66,7 @@
     },
     "move": {
       "attract": {
-        "enable": true,
+        "enable": false,
         "rotateX": 600,
         "rotateY": 500
       },

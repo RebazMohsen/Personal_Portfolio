@@ -2,7 +2,7 @@ import NavBar from "./NavBar/NavBar";
 import React, { useState } from "react";
 
 import Loading from "./Components/LoadingSpinner/Loading";
-import Particle from "./Components/Particles/Particle.jsx";
+import Hero from "./Components/HeroSection/Hero.js";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
@@ -27,7 +27,7 @@ function App() {
       <div className="App ">
         <NavBar />
 
-        <Particle />
+        <Hero />
 
         <About />
         <HR />

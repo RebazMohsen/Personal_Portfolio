@@ -3,7 +3,7 @@ import React, { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./particles";
-import "./particles.css";
+import "./Hero.css";
 function Particle() {
   console.log(particlesOptions);
   const particlesInit = useCallback((main) => {
@@ -16,12 +16,12 @@ function Particle() {
         className="h-[600px]    "
         options={particlesOptions}
       />
-      <div className="    p-4    ">
-        <h1 className="    text-[50px] transition-all duration-1000  font-bold ">
+      <div className="     p-4    ">
+        <h1 className="    text-[50px] transition-all duration-1000    ">
           Hi There,
           <br /> I'm Rebaz Mohsen
         </h1>
-        <div className=" text-[25px]  font-bold">
+        <div className=" text-[25px]   ">
           <p>I'm A Front-End Developer</p>
         </div>
         <a href="#About">

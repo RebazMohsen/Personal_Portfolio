@@ -14,7 +14,7 @@ function classNames(...classes) {
 }
 
 export default function NavBar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Disclosure
@@ -39,6 +39,7 @@ export default function NavBar() {
                     }  transition-all  ease-in-out`}
                   >
                     <Hamburger
+                      toggled={open}
                       label="Show menu"
                       easing="ease-in"
                       duration={0.9}

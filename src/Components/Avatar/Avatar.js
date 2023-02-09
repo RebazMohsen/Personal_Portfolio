@@ -13,7 +13,7 @@ class Avatar extends React.Component {
       // 4. configure the interactivity library
       create({
         mode: "scroll",
-        player: "#firstLottie",
+        player: "#Avatar",
         actions: [
           {
             visibility: [0, 1],
@@ -26,14 +26,14 @@ class Avatar extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="mx-auto w-[100%] h-[300px] mobile:h-[300px]  mobile:w-[300px]   lg:h-[800px]">
         <lottie-player
           ref={this.myRef} // 2. set the reference for the player
-          id="firstLottie"
+          id="Avatar"
           mode="normal"
-          className=" mx-auto w-[100%] mobile:h-[300px]  mobile:w-[300px]  h-[400px] lg:h-[800px] "
+          className="   "
           src="https://assets9.lottiefiles.com/packages/lf20_8pL7DHZXvo.json"
-          /*   style={({ width: 800 + "px" }, { height: 800 + "px" })} */
+          /*  style={({ width: 300 + "px" }, { height: 300 + "px" })} */
         ></lottie-player>
       </div>
     );

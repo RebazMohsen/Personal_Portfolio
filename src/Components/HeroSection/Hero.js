@@ -68,7 +68,7 @@ function Hero() {
             rel="noreferrer"
           >
             <UseAnimations
-              className="border-2 rounded-full p-2 hover:bg-slate-300"
+              className="ml-2 border-2 rounded-full p-2 hover:bg-slate-300"
               animation={linkedin}
               size={55}
               loop={false}
@@ -77,14 +77,6 @@ function Hero() {
         </div>
       </div>
       <div className="     ">
-        {/*  <Lottie
-          id="myAvatar"
-          className=" mx-auto w-[100%] mobile:h-[300px]  mobile:w-[300px]  h-[400px] lg:h-[800px] "
-          loop
-          animationData={avatar}
-          play
-         
-        /> */}
         <Avatar />
       </div>
     </div>

@@ -15,6 +15,7 @@ import arrowDownCircle from "react-useanimations/lib/arrowDownCircle";
 
 import Lottie from "react-lottie-player";
 import avatar from "../../assets/avatar/avatar.json";
+import Avatar from "../Avatar/Avatar";
 
 function Hero() {
   console.log(avatar);
@@ -22,25 +23,25 @@ function Hero() {
     loadFull(main);
   }, []);
   return (
-    <div className="h-[100vh] lg:flex   ">
+    <div className="h-[100vh]    lg:flex   ">
       <Particles
         init={particlesInit}
-        className="h-[100%]    "
+        className="h-[100%]     "
         options={particlesOptions}
       />
-      <div className="     p-4    ">
-        <h1 className="    text-[55px] lg:text-[70px] transition-all duration-1000    ">
+      <div className="     p-4 lg:p-7    ">
+        <h1 className="    text-[55px] mobile:text-[45px]   lg:text-[80px] transition-all duration-1000    ">
           Hi There,
           <br /> I'm Rebaz <span className="text-orange-400"> Mohsen </span>
         </h1>
-        <div className=" transition-all duration-1000 text-[25px] lg:text-[35px]    ">
+        <div className=" transition-all duration-1000 mobile:text-[20px] text-[25px] lg:text-[35px]    ">
           <p>I'm A Front-End Developer</p>
         </div>
         <a className="" href="#About">
           <div className="    flex   bg-[#2506ad]    hover:bg-[#230F7E] shadow-md shadow-[#2506ad] p-[10px] pl-[30px] m-4 w-[167px] h-[45px]  rounded-3xl text-white  font-semibold ml-2 ">
             <div className="  ">About Me</div>
             <UseAnimations
-              className={` fill-gray-50  m-0  `}
+              className={` fill-gray-50  m-0   `}
               animation={arrowDownCircle}
               size={30}
               strokeColor="white"
@@ -49,7 +50,11 @@ function Hero() {
           </div>
         </a>
         <div className="pt-2 pb-2 flex ">
-          <a href="https://github.com/RebazMohsen">
+          <a
+            href="https://github.com/RebazMohsen"
+            target="_blank"
+            rel="noreferrer"
+          >
             <UseAnimations
               className="border-2 rounded-full p-2 hover:bg-slate-300 "
               animation={github}
@@ -57,7 +62,11 @@ function Hero() {
               loop={false}
             />
           </a>
-          <a href="https://iq.linkedin.com/in/rebaz-mohsen-a68817170 ">
+          <a
+            href="https://iq.linkedin.com/in/rebaz-mohsen-a68817170 "
+            target="_blank"
+            rel="noreferrer"
+          >
             <UseAnimations
               className="border-2 rounded-full p-2 hover:bg-slate-300"
               animation={linkedin}
@@ -68,13 +77,15 @@ function Hero() {
         </div>
       </div>
       <div className="     ">
-        <Lottie
-          className="w-[100%] h-[500px] lg:h-[800px] "
+        {/*  <Lottie
+          id="myAvatar"
+          className=" mx-auto w-[100%] mobile:h-[300px]  mobile:w-[300px]  h-[400px] lg:h-[800px] "
           loop
           animationData={avatar}
           play
-          /*  style={{ width: 400, height: 400 }} */
-        />
+         
+        /> */}
+        <Avatar />
       </div>
     </div>
   );

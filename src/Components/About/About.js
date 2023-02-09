@@ -1,4 +1,5 @@
 import React from "react";
+import Avatar from "../Avatar/Avatar";
 
 export default function About() {
   return (

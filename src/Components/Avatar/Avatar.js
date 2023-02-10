@@ -18,7 +18,7 @@ class Avatar extends React.Component {
           {
             visibility: [0, 1],
             type: "seek",
-            frames: [0, 80],
+            frames: [0, 90],
           },
         ],
       });

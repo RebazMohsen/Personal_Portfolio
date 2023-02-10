@@ -12,13 +12,12 @@ import linkedin from "react-useanimations/lib/linkedin";
 import arrowDownCircle from "react-useanimations/lib/arrowDownCircle";
 
 //Lottie
-
-import Lottie from "react-lottie-player";
-import avatar from "../../assets/avatar/avatar.json";
 import Avatar from "../Avatar/Avatar";
 
+//Typing Animation
+import Typed from "react-typed";
+
 function Hero() {
-  console.log(avatar);
   const particlesInit = useCallback((main) => {
     loadFull(main);
   }, []);
@@ -34,8 +33,35 @@ function Hero() {
           Hi There,
           <br /> I'm Rebaz <span className="text-orange-400"> Mohsen </span>
         </h1>
-        <div className=" transition-all duration-1000 mobile:text-[20px] text-[25px] lg:text-[35px]    ">
-          <p>I'm A Front-End Developer</p>
+        <div className="lg:w-[700px] p-4   transition-all duration-1000 mobile:text-[20px] text-[25px] lg:text-[35px]    ">
+          {/* <p>I'm A Front-End Developer</p> */}
+          <Typed
+            strings={[
+              "I'm A Front-End Developer sleep eat and  breath",
+
+              "I'm A Front-End Developer sleep eat and breath HTML",
+
+              "I'm A Front-End Developer sleep eat and breath CSS",
+
+              "I'm A Front-End Developer sleep eat and breath JavaScript",
+
+              "I'm A Front-End Developer sleep eat and breath React",
+
+              "I'm A Front-End Developer sleep eat and breath Bootstrap",
+
+              "I'm A Front-End Developer sleep eat and breath Tailwind",
+
+              "I'm A Front-End Developer sleep eat and breath Redux",
+
+              "I'm A Front-End Developer sleep eat and breath Coffee",
+            ]}
+            typeSpeed={40}
+            backSpeed={50}
+            attr=""
+            loop
+          >
+            {/*    <input type="text" /> */}
+          </Typed>
         </div>
         <a className="" href="#About">
           <div className="    flex   bg-[#2506ad]    hover:bg-[#230F7E] shadow-md shadow-[#2506ad] p-[10px] pl-[30px] m-4 w-[167px] h-[45px]  rounded-3xl text-white  font-semibold ml-2 ">

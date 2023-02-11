@@ -64,18 +64,21 @@ function Hero() {
           </Typed>
         </div>
 
-        <a className="" href="#About">
-          <div className="    flex   bg-[#2506ad]    hover:bg-[#230F7E] shadow-md shadow-[#2506ad] p-[10px] pl-[30px] m-4 w-[167px] h-[45px]  rounded-3xl text-white  font-semibold ml-2 ">
-            <div className="  ">About Me</div>
-            <UseAnimations
-              className={` fill-gray-50  m-0   `}
-              animation={arrowDownCircle}
-              size={30}
-              strokeColor="white"
-              loop={false}
-            />
-          </div>
-        </a>
+        <div className="w-[167px]">
+          <a className=" " href="#About">
+            <div className="     flex   bg-[#2506ad]    hover:bg-[#230F7E] shadow-md shadow-[#2506ad] p-[10px] pl-[30px] m-4 w-[167px] h-[45px]  rounded-3xl text-white  font-semibold ml-2 ">
+              <div className="  ">About Me</div>
+              <UseAnimations
+                className={` fill-gray-50  m-0   `}
+                animation={arrowDownCircle}
+                size={30}
+                strokeColor="white"
+                loop={false}
+              />
+            </div>
+          </a>
+        </div>
+
         <div className="pt-2 pb-2 flex ">
           <a
             href="https://github.com/RebazMohsen"

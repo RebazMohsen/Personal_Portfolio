@@ -87,8 +87,8 @@
         "enable": true,
         "value_area": 800
       },
-      "value": 100,
-      "limit": 150
+      "value": 80,
+      "limit": 200
     },
     "opacity": {
       "anim": {

@@ -3,10 +3,10 @@ import { Disclosure } from "@headlessui/react";
 import { Spin as Hamburger } from "hamburger-react";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "Skills", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Home", href: "#Home", current: true },
+  { name: "About", href: "#About", current: false },
+  { name: "Skills", href: "#Skills", current: false },
+  { name: "Contact", href: "#Contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -19,7 +19,7 @@ export default function NavBar() {
   return (
     <Disclosure
       as="nav"
-      className="   bg-white   border-b-2 border-slate-300  "
+      className="    bg-white   border-b-2 border-slate-300  "
     >
       {({ open }) => (
         <>

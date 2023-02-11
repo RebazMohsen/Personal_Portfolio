@@ -37,7 +37,7 @@ function Hero() {
           {/* <p>I'm A Front-End Developer</p> */}
           <Typed
             strings={[
-              "I'm A Front-End Developer sleep eat and  breath",
+              "I'm A Front-End Developer sleep eat and breath",
 
               "I'm A Front-End Developer sleep eat and breath HTML",
 
@@ -63,6 +63,7 @@ function Hero() {
             {/*    <input type="text" /> */}
           </Typed>
         </div>
+
         <a className="" href="#About">
           <div className="    flex   bg-[#2506ad]    hover:bg-[#230F7E] shadow-md shadow-[#2506ad] p-[10px] pl-[30px] m-4 w-[167px] h-[45px]  rounded-3xl text-white  font-semibold ml-2 ">
             <div className="  ">About Me</div>

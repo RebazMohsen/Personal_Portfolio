@@ -1,0 +1,21 @@
+.backColor {
+  background-image: linear-gradient(
+    to right bottom,
+    #6321cf,
+    #a9009a,
+    #c10062,
+    #bf0031,
+    #ad0000
+  );
+}
+
+.foreGround {
+  background-image: linear-gradient(
+    to right bottom,
+    #a30094,
+    #b70071,
+    #be004d,
+    #ba002a,
+    #ad0000
+  );
+}

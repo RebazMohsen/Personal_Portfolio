@@ -6,7 +6,7 @@ import Hero from "./Components/HeroSection/Hero.js";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
-import HR from "./Components/BreakLine/HR";
+
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -24,7 +24,7 @@ function App() {
     );
   } else {
     return (
-      <div className="App ">
+      <div className="App    ">
         <NavBar />
 
         <Hero />
@@ -32,7 +32,7 @@ function App() {
         <About />
 
         <Skills />
-        <HR />
+
         <Contact />
       </div>
     );

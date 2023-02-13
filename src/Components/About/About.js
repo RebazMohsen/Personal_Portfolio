@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div id="About" className="  h-[100vh] ">
-      <div className=" p-36">
+      <div className="p-4 sm:p-36">
         <h1 className="text-4xl text-center">About Me</h1>
         <div className="font-serif   flex p-4 mt-10  text-4xl mx-auto w-[60%] text-justify   ">
           <div>

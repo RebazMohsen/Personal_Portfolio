@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "CSS",
+    "Image": "skillsIcons/CSS.png"
+  },
+  {
+    "id": 2,
+    "name": "BedRoom",
+
+    "Image1": " /static/media/1.c418d5e41d9a16928023.jpeg",
+    "Image2": "/static/media/2.ed3b3bb15873a7ceadb8.jpeg",
+    "Image3": "/static/media/3.c5c9ab5f2867bad36ce9.jpeg ",
+    "Image4": "/static/media/4.2c5af436f26cbdd6d9f5.jpeg "
+  }
+]

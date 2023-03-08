@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Loading from "./Components/LoadingSpinner/Loading";
 import Hero from "./Components/HeroSection/Hero.js";
 import About from "./Components/About/About";
-import Skills from "./Components/Skills/Skills";
+import Skillss from "./Components/Skills/Skillss";
 import Contact from "./Components/Contact/Contact";
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
 
         <About />
 
-        <Skills />
+        <Skillss />
 
         <Contact />
       </div>
